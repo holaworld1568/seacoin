@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ru" data-title="Морская игра для всей семьи">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Морская игра для всей семьи — SeaCoin</title>
+<meta name="description" content="Подводное приключение для всей семьи: ныряльщик Финн, попугай Кэп и сундуки на дне. Без рекламы и покупок.">
+<meta name="theme-color" content="#0f8ea2">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="fonts/Nunito.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="styles.css">
+<script src="config.js" defer></script>
+<script src="site.js" defer></script>
+</head>
+<body class="home">
+<a class="skip" href="#main">Перейти к содержимому</a>
+<div class="sea" aria-hidden="true">
+  <div class="sea__rays"></div>
+  <div class="sea__side sea__side--l"></div>
+  <div class="sea__side sea__side--r"></div>
+  <img class="swimmer" src="assets/fish-wrasse.webp" alt="" width="70" height="66" style="top:38%;width:70px;--d:34s;--delay:-6s">
+  <img class="swimmer swimmer--rtl" src="assets/fish-parrot.webp" alt="" width="64" height="59" style="top:62%;width:64px;--d:42s;--delay:-20s">
+  <img class="swimmer" src="assets/turtle.webp" alt="" width="96" height="83" style="top:80%;width:96px;--d:60s;--delay:-38s">
+  <div class="bubbles"><span style="--x:43%;--s:10px;--d:17s;--delay:-20s;--y:14%"></span><span style="--x:11%;--s:26px;--d:19s;--delay:-3s;--y:54%"></span><span style="--x:76%;--s:8px;--d:19s;--delay:-6s;--y:12%"></span><span style="--x:13%;--s:14px;--d:17s;--delay:-2s;--y:38%"></span><span style="--x:13%;--s:18px;--d:17s;--delay:-1s;--y:80%"></span><span style="--x:17%;--s:10px;--d:21s;--delay:-20s;--y:82%"></span><span style="--x:9%;--s:18px;--d:20s;--delay:-12s;--y:14%"></span><span style="--x:30%;--s:8px;--d:19s;--delay:-4s;--y:45%"></span><span style="--x:55%;--s:10px;--d:19s;--delay:-3s;--y:81%"></span><span style="--x:41%;--s:18px;--d:24s;--delay:-21s;--y:31%"></span><span style="--x:15%;--s:18px;--d:20s;--delay:-20s;--y:32%"></span><span style="--x:49%;--s:8px;--d:19s;--delay:-22s;--y:16%"></span><span style="--x:74%;--s:8px;--d:20s;--delay:-6s;--y:71%"></span><span style="--x:89%;--s:18px;--d:17s;--delay:-24s;--y:48%"></span><span style="--x:61%;--s:18px;--d:18s;--delay:-11s;--y:46%"></span><span style="--x:33%;--s:26px;--d:13s;--delay:-22s;--y:39%"></span><span style="--x:12%;--s:18px;--d:15s;--delay:-16s;--y:71%"></span><span style="--x:45%;--s:22px;--d:18s;--delay:-9s;--y:85%"></span></div>
+</div>
+<div class="page">
+<header class="topbar">
+  <a class="brand" href="index.html" aria-label="SeaCoin — На главную" data-brand>
+    <img src="assets/app-icon.png" alt="" width="40" height="40">
+    <span data-site="appName">SeaCoin</span>
+  </a>
+  <nav class="topnav" aria-label="Документы">
+    <a class="sign sign--small" href="privacy.html">Конфиденциальность</a>
+    <a class="sign sign--small" href="terms.html">Условия</a>
+  </nav>
+</header>
+<main id="main">
+<section class="hero" aria-labelledby="title">
+  <div class="hero__sky">
+    <img class="cloud cloud--a" src="assets/cloud.webp" alt="" width="150" height="149">
+    <img class="cloud cloud--b" src="assets/cloud.webp" alt="" width="190" height="188">
+    <img class="gull" src="assets/gull.webp" alt="" width="56" height="62">
+    <p class="kicker"><span class="ribbon">Морская игра для всей семьи</span></p>
+    <h1 class="title" id="title"><span data-site="appName">SeaCoin</span></h1>
+    <div class="boat-wrap"><img class="boat" src="assets/boat.webp" alt="Деревянная лодка с пиратским флагом" width="340" height="377"></div>
+  </div>
+  <div class="waterline" aria-hidden="true"></div>
+  <div class="hero__deep">
+    <img class="finn" src="assets/finn.webp" alt="Ныряльщик Финн в маске и ластах плывёт вниз" width="210" height="238">
+    <div class="pitch">
+      <div class="porthole"><img src="assets/cap-happy.webp" alt="Попугай Кэп" width="140" height="144"></div>
+      <div class="bubble-talk">
+        <p><span class="who">Кэп:</span> Йо-хо-хо! Мы с Финном ныряем за сокровищами. Поплывёшь с нами?</p>
+        <p>Спокойное подводное приключение для всей семьи: детям — весело, взрослым — не скучно. Юный ныряльщик Финн прыгает с лодки на дно за сундуками, а попугай Кэп подсказывает, как беречь воздух, обходить медуз и открывать замки. Короткие уровни, весёлые головоломки и много морских жителей — всё на русском языке и с голосом Кэпа.</p>
+      </div>
+    </div>
+    <div class="cta">
+      <span class="hanging"><a class="sign sign--gold" href="#parents">Для родителей</a></span>
+      <span class="hanging"><a class="sign" href="#features">Что в игре</a></span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="features" aria-labelledby="features-title">
+  <div class="wrap">
+    <h2 class="section-head"><span class="ribbon" id="features-title">Что ждёт на глубине</span></h2>
+    <p class="lede">Четыре моря, двадцать уровней и целая команда друзей. Пятое море с Кракеном — скоро.</p>
+    <ul class="cards">
+      <li class="card">
+        <img class="card__art" src="assets/chest-open.webp" alt="Открытый сундук с золотыми дублонами" width="104" height="104">
+        <h3>20 уровней в 4 морях</h3>
+        <p>Лагуна, Риф, Флот затонувших кораблей и Ледяное море. Финн ныряет с лодки, находит ключи и поднимает сундуки со дна.</p>
+      </li>
+      <li class="card">
+        <img class="card__art" src="assets/cap-happy.webp" alt="Попугай Кэп в пиратской шляпе показывает большой палец" width="104" height="104">
+        <h3>Кэп всегда рядом</h3>
+        <p>Говорящий попугай подсказывает и подбадривает своим голосом. А если крикнуть «Йо-хо-хо!» — Кэп услышит.</p>
+      </li>
+      <li class="card">
+        <img class="card__art" src="assets/key.webp" alt="Золотой ключ с черепом" width="104" height="104">
+        <h3>Снаряжение ныряльщика</h3>
+        <p>Ключи, баллон с кислородом, гарпун, буй-мешок, сонар, сигнальные ракеты и фонарь — каждая находка учит думать наперёд.</p>
+      </li>
+      <li class="card">
+        <img class="card__art" src="assets/som.webp" alt="Боцман Сом — усатый сом в бескозырке и тельняшке" width="104" height="104">
+        <h3>Лавка боцмана Сома</h3>
+        <p>Наряды и украшения только за игровые дублоны, собранные в море. Настоящие деньги здесь не нужны вовсе.</p>
+      </li>
+      <li class="card">
+        <img class="card__art" src="assets/map-piece.webp" alt="Кусок старой карты с крестиком" width="104" height="104">
+        <h3>Карта капитана Ворона</h3>
+        <p>Каюта, капитанская карта и 30 достижений. Кусочек за кусочком открывается тайна затонувшего флота.</p>
+      </li>
+      <li class="card">
+        <img class="card__art" src="assets/compass.webp" alt="Золотой компас" width="104" height="104">
+        <h3>Капитанский мостик</h3>
+        <p>Свой портрет капитана, плакат «Разыскивается», команда из друзей и сундук дня, спрятанный где-то рядом.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section parents" id="parents" aria-labelledby="parents-title">
+  <div class="scroll">
+    <div class="scroll__roll scroll__roll--top" aria-hidden="true"></div>
+    <div class="scroll__paper">
+      <h2 id="parents-title">Для родителей</h2>
+      <p class="sub">Мы делали игру так, как хотели бы для своих детей: спокойно, честно и без ловушек.</p>
+      <ul class="promises">
+        <li><span class="coin-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M6 6l12 12" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/></svg></span><div><strong>Без рекламы</strong><p>Ни баннеров, ни роликов, ни «посмотри, чтобы получить». Ничто не отвлекает от игры.</p></div></li>
+        <li><span class="coin-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><strong>Без покупок</strong><p>Ни встроенных покупок, ни подписок, ни настоящих денег. Дублоны — только игровые.</p></div></li>
+        <li><span class="coin-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5" fill="none" stroke="currentColor" stroke-width="2.4"/></svg></span><div><strong>Без регистрации</strong><p>Нет аккаунтов, входа и Game Center. Никому не нужно ничего вводить о себе.</p></div></li>
+        <li><span class="coin-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.5" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="12" cy="18" r="1.4" fill="currentColor"/></svg></span><div><strong>Личное остаётся в телефоне</strong><p>Фото, друзья, место и голос остаются в телефоне и никуда не отправляются. Прогресс тоже хранится только на устройстве.</p></div></li>
+        <li><span class="coin-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v10H9l-5 4V5z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M8 8l8 4M16 8l-8 4" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></span><div><strong>Без чатов и незнакомцев</strong><p>В игре нет общения с чужими людьми. Друзей в команду игрок выбирает сам из своих контактов, и они хранятся только в телефоне.</p></div></li>
+        <li><span class="coin-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6l7-3z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><strong>Разрешения — по желанию</strong><p>Кэп сначала объясняет, зачем ему камера или микрофон, и спрашивает только по нажатию игрока, никогда посреди уровня. Без разрешений игра проходится полностью.</p></div></li>
+        <li class="honest"><span class="coin-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 17a8 8 0 1 1 16 0" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><path d="M12 17l4-5" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="12" cy="17" r="1.8" fill="currentColor"/></svg></span><div class="honest-box"><strong>Честно о данных</strong><p>Никакой рекламы и покупок. Фото, друзья, место и голос остаются в телефоне. Игра ничего не собирает и никуда не отправляет: в ней нет аналитики, слежки и сторонних сервисов. Подробно — в <a href="privacy.html#never">политике конфиденциальности</a>.</p></div></li>
+      </ul>
+      <div class="cta">
+        <a class="sign" href="privacy.html">Политика конфиденциальности</a>
+        <a class="sign" href="terms.html">Условия использования</a>
+      </div>
+    </div>
+    <div class="scroll__roll scroll__roll--bottom" aria-hidden="true"></div>
+  </div>
+</section>
+
+<div class="seabed" aria-hidden="true">
+  <img class="s-coral1" src="assets/coral-orange.webp" alt="">
+  <img class="s-weed bob" src="assets/weed.webp" alt="">
+  <img class="s-star" src="assets/starfish.webp" alt="">
+  <img class="s-chest" src="assets/chest-closed.webp" alt="">
+  <img class="s-shell" src="assets/shell.webp" alt="">
+  <img class="s-crab" src="assets/crab.webp" alt="">
+  <img class="s-coral3" src="assets/coral-purple.webp" alt="">
+</div>
+</main>
+<footer class="footer">
+  <nav aria-label="Ссылки сайта">
+    <ul>
+      <li><a class="sign sign--small" href="index.html" aria-current="page">Об игре</a></li>
+      <li><a class="sign sign--small" href="privacy.html">Конфиденциальность</a></li>
+      <li><a class="sign sign--small" href="terms.html">Условия использования</a></li>
+    </ul>
+  </nav>
+  <p>Связаться с нами: <a data-site-mail><span data-site="email">holaworld1568@gmail.com</span></a></p>
+  <p>© <span data-site="year">2026</span> <span data-site="copyright">PrtGame</span></p>
+  <p>Этот сайт не использует cookies, аналитику и трекеры и ничего не загружает с чужих серверов.</p>
+</footer>
+</div>
+</body>
+</html>
